@@ -11,6 +11,11 @@
 		3339D52B2684DD8200699C7D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3339D52A2684DD8200699C7D /* ContentView.swift */; };
 		3339D52D2684DD8500699C7D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3339D52C2684DD8500699C7D /* Assets.xcassets */; };
 		3339D5302684DD8500699C7D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3339D52F2684DD8500699C7D /* Preview Assets.xcassets */; };
+		3339D5392684DD9F00699C7D /* Main.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3339D5372684DD9F00699C7D /* Main.xcdatamodeld */; };
+		3339D53B2684DF8000699C7D /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3339D53A2684DF8000699C7D /* DataController.swift */; };
+		3339D53F2684E15E00699C7D /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3339D53E2684E15E00699C7D /* CloudKit.framework */; };
+		3339D5412684E33C00699C7D /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3339D5402684E33C00699C7D /* HomeView.swift */; };
+		3339D5432684E43D00699C7D /* ProjectsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3339D5422684E43D00699C7D /* ProjectsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +25,12 @@
 		3339D52C2684DD8500699C7D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3339D52F2684DD8500699C7D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		3339D5312684DD8500699C7D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3339D5382684DD9F00699C7D /* Main.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Main.xcdatamodel; sourceTree = "<group>"; };
+		3339D53A2684DF8000699C7D /* DataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataController.swift; sourceTree = "<group>"; };
+		3339D53C2684E11E00699C7D /* Bee.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Bee.entitlements; sourceTree = "<group>"; };
+		3339D53E2684E15E00699C7D /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = System/Library/Frameworks/CloudKit.framework; sourceTree = SDKROOT; };
+		3339D5402684E33C00699C7D /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		3339D5422684E43D00699C7D /* ProjectsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -27,6 +38,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3339D53F2684E15E00699C7D /* CloudKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -38,6 +50,7 @@
 			children = (
 				3339D5272684DD8200699C7D /* Bee */,
 				3339D5262684DD8200699C7D /* Products */,
+				3339D53D2684E15E00699C7D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -52,11 +65,16 @@
 		3339D5272684DD8200699C7D /* Bee */ = {
 			isa = PBXGroup;
 			children = (
+				3339D53C2684E11E00699C7D /* Bee.entitlements */,
 				3339D5282684DD8200699C7D /* BeeApp.swift */,
 				3339D52A2684DD8200699C7D /* ContentView.swift */,
 				3339D52C2684DD8500699C7D /* Assets.xcassets */,
 				3339D5312684DD8500699C7D /* Info.plist */,
 				3339D52E2684DD8500699C7D /* Preview Content */,
+				3339D5372684DD9F00699C7D /* Main.xcdatamodeld */,
+				3339D53A2684DF8000699C7D /* DataController.swift */,
+				3339D5402684E33C00699C7D /* HomeView.swift */,
+				3339D5422684E43D00699C7D /* ProjectsView.swift */,
 			);
 			path = Bee;
 			sourceTree = "<group>";
@@ -67,6 +85,14 @@
 				3339D52F2684DD8500699C7D /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3339D53D2684E15E00699C7D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3339D53E2684E15E00699C7D /* CloudKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,7 +164,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3339D5432684E43D00699C7D /* ProjectsView.swift in Sources */,
+				3339D5392684DD9F00699C7D /* Main.xcdatamodeld in Sources */,
+				3339D53B2684DF8000699C7D /* DataController.swift in Sources */,
 				3339D52B2684DD8200699C7D /* ContentView.swift in Sources */,
+				3339D5412684E33C00699C7D /* HomeView.swift in Sources */,
 				3339D5292684DD8200699C7D /* BeeApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -267,6 +297,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Bee/Bee.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Bee/Preview Content\"";
 				DEVELOPMENT_TEAM = 96PFZ5N56K;
@@ -289,6 +320,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Bee/Bee.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Bee/Preview Content\"";
 				DEVELOPMENT_TEAM = 96PFZ5N56K;
@@ -328,6 +360,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		3339D5372684DD9F00699C7D /* Main.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				3339D5382684DD9F00699C7D /* Main.xcdatamodel */,
+			);
+			currentVersion = 3339D5382684DD9F00699C7D /* Main.xcdatamodel */;
+			path = Main.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 3339D51D2684DD8200699C7D /* Project object */;
 }
