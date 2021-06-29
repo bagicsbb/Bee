@@ -21,6 +21,8 @@
 		33735E66268B151100353918 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 33735E68268B151100353918 /* Localizable.strings */; };
 		33735E6A268B168F00353918 /* Localizable.stringsdict in Resources */ = {isa = PBXBuildFile; fileRef = 33735E6C268B168F00353918 /* Localizable.stringsdict */; };
 		33735E6E268B184A00353918 /* Awards.json in Resources */ = {isa = PBXBuildFile; fileRef = 33735E70268B184A00353918 /* Awards.json */; };
+		33735E73268B5FFF00353918 /* ItemListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33735E72268B5FFF00353918 /* ItemListView.swift */; };
+		33735E75268B61AB00353918 /* ProjectSummaryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33735E74268B61AB00353918 /* ProjectSummaryView.swift */; };
 		338D006D2688650D00DBB6EB /* EditItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 338D006C2688650D00DBB6EB /* EditItemView.swift */; };
 		338D006F26886BD800DBB6EB /* ItemRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 338D006E26886BD800DBB6EB /* ItemRowView.swift */; };
 		338D007126886EC800DBB6EB /* Binding-OnChange.swift in Sources */ = {isa = PBXBuildFile; fileRef = 338D007026886EC800DBB6EB /* Binding-OnChange.swift */; };
@@ -56,6 +58,8 @@
 		33735E6D268B169A00353918 /* hu */ = {isa = PBXFileReference; lastKnownFileType = text.plist.stringsdict; name = hu; path = hu.lproj/Localizable.stringsdict; sourceTree = "<group>"; };
 		33735E6F268B184A00353918 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = en; path = en.lproj/Awards.json; sourceTree = "<group>"; };
 		33735E71268B185800353918 /* hu */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = hu; path = hu.lproj/Awards.json; sourceTree = "<group>"; };
+		33735E72268B5FFF00353918 /* ItemListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemListView.swift; sourceTree = "<group>"; };
+		33735E74268B61AB00353918 /* ProjectSummaryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectSummaryView.swift; sourceTree = "<group>"; };
 		338D006C2688650D00DBB6EB /* EditItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditItemView.swift; sourceTree = "<group>"; };
 		338D006E26886BD800DBB6EB /* ItemRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemRowView.swift; sourceTree = "<group>"; };
 		338D007026886EC800DBB6EB /* Binding-OnChange.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Binding-OnChange.swift"; sourceTree = "<group>"; };
@@ -112,6 +116,7 @@
 				3339D53A2684DF8000699C7D /* DataController.swift */,
 				338D007A2689E9A700DBB6EB /* SelectSomethingView.swift */,
 				3339D5402684E33C00699C7D /* HomeView.swift */,
+				33735E74268B61AB00353918 /* ProjectSummaryView.swift */,
 				338D006E26886BD800DBB6EB /* ItemRowView.swift */,
 				33735E70268B184A00353918 /* Awards.json */,
 				338D0080268A1F0200DBB6EB /* Award.swift */,
@@ -119,6 +124,7 @@
 				338D0084268A632200DBB6EB /* Color-Additions.swift */,
 				338D00782688F00700DBB6EB /* Sequence-Sorting.swift */,
 				3339D5422684E43D00699C7D /* ProjectsView.swift */,
+				33735E72268B5FFF00353918 /* ItemListView.swift */,
 				33735E68268B151100353918 /* Localizable.strings */,
 				33735E6C268B168F00353918 /* Localizable.stringsdict */,
 				338D007C268A158600DBB6EB /* Bundle-Decodable.swift */,
@@ -224,6 +230,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3339D5432684E43D00699C7D /* ProjectsView.swift in Sources */,
+				33735E75268B61AB00353918 /* ProjectSummaryView.swift in Sources */,
 				338D00732688753300DBB6EB /* ProjectHeaderView.swift in Sources */,
 				338D0083268A203B00DBB6EB /* AwardsView.swift in Sources */,
 				3339D5392684DD9F00699C7D /* Main.xcdatamodeld in Sources */,
@@ -238,6 +245,7 @@
 				338D007126886EC800DBB6EB /* Binding-OnChange.swift in Sources */,
 				338D00792688F00700DBB6EB /* Sequence-Sorting.swift in Sources */,
 				338D007D268A158600DBB6EB /* Bundle-Decodable.swift in Sources */,
+				33735E73268B5FFF00353918 /* ItemListView.swift in Sources */,
 				3339D5412684E33C00699C7D /* HomeView.swift in Sources */,
 				3339D5292684DD8200699C7D /* BeeApp.swift in Sources */,
 				3339D54526850E8600699C7D /* Item-CoreDataHelpers.swift in Sources */,
