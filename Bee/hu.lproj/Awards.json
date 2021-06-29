@@ -1,0 +1,162 @@
+[
+    {
+        "name": "Első lépések",
+        "description": "Add hozzá az első tételt.",
+        "color": "Light Blue",
+        "criterion": "items",
+        "value": 1,
+        "image": "figure.walk"
+    },
+    {
+        "name": "Nagyszerű kezdet",
+        "description": "Adj hozzá 10 tételt.",
+        "color": "Light Blue",
+        "criterion": "items",
+        "value": 10,
+        "image": "hand.thumbsup.fill"
+    },
+    {
+        "name": "Szintlépés",
+        "description": "Adj hozzá 20 tételt.",
+        "color": "Light Blue",
+        "criterion": "items",
+        "value": 20,
+        "image": "tray.and.arrow.up.fill"
+    },
+    {
+        "name": "Gyorsulás",
+        "description": "Adj hozzá 50 tételt.",
+        "color": "Light Blue",
+        "criterion": "items",
+        "value": 50,
+        "image": "speedometer"
+    },
+    {
+        "name": "Hullámzik",
+        "description": "Adj hozzá 100 tételt.",
+        "color": "Light Blue",
+        "criterion": "items",
+        "value": 100,
+        "image": "dot.radiowaves.left.and.right"
+    },
+    {
+        "name": "Remek teljesítmény",
+        "description": "Adj hozzá 250 tételt.",
+        "color": "Light Blue",
+        "criterion": "items",
+        "value": 250,
+        "image": "square.stack.3d.up.fill"
+    },
+    {
+        "name": "Fantasztikus teljesítmény",
+        "description": "Adj hozzá 500 tételt.",
+        "color": "Light Blue",
+        "criterion": "items",
+        "value": 500,
+        "image": "star.circle.fill"
+    },
+    {
+        "name": "Lenyűgöző teljesítmény",
+        "description": "Adj hozzá 1000 tételt.",
+        "color": "Light Blue",
+        "criterion": "items",
+        "value": 1000,
+        "image": "crown.fill"
+    },
+    {
+        "name": "Tétel kipipálva",
+        "description": "Fejezd be az első tételt.",
+        "color": "Orange",
+        "criterion": "complete",
+        "value": 1,
+        "image": "checkmark.shield.fill"
+    },
+    {
+        "name": "Ringatózva",
+        "description": "Fejezz be 10 tételt.",
+        "color": "Orange",
+        "criterion": "complete",
+        "value": 10,
+        "image": "guitars.fill"
+    },
+    {
+        "name": "A 20 tovább húz.",
+        "description": "Fejezz be 20 tételt.",
+        "color": "Orange",
+        "criterion": "complete",
+        "value": 20,
+        "image": "20.square.fill"
+    },
+    {
+        "name": "Telitalálat!",
+        "description": "Fejezz be 50 tételt.",
+        "color": "Orange",
+        "criterion": "complete",
+        "value": 50,
+        "image": "target"
+    },
+    {
+        "name": "Szérnyalás",
+        "description": "Fejezz be 100 tételt.",
+        "color": "Orange",
+        "criterion": "complete",
+        "value": 100,
+        "image": "airplane.circle.fill"
+    },
+    {
+        "name": "Lángolás!",
+        "description": "Fejezz be 250 tételt.",
+        "color": "Orange",
+        "criterion": "complete",
+        "value": 250,
+        "image": "flame.fill"
+    },
+    {
+        "name": "Nagy főnök",
+        "description": "Fejezz be 500 tételt.",
+        "color": "Orange",
+        "criterion": "complete",
+        "value": 500,
+        "image": "text.badge.checkmark"
+    },
+    {
+        "name": "Bumm!",
+        "description": "Fejezz be 1000 tételt.",
+        "color": "Orange",
+        "criterion": "complete",
+        "value": 1000,
+        "image": "bolt.circle.fill"
+    },
+    {
+        "name": "Első üzenet",
+        "description": "Első üzeneted elküldve a csoportos csevegésbe.",
+        "color": "Purple",
+        "criterion": "chat",
+        "value": 1,
+        "image": "person.fill"
+    },
+    {
+        "name": "Gyakori csevegő",
+        "description": "10 üzenetet tettél közzé a csoportos csevegésben.",
+        "color": "Purple",
+        "criterion": "chat",
+        "value": 10,
+        "image": "message.fill"
+    },
+    {
+        "name": "A közösség motorja",
+        "description": "100 üzenetet tettél közzé a csoportos csevegésben.",
+        "color": "Purple",
+        "criterion": "chat",
+        "value": 100,
+        "image": "arrow.up.heart.fill"
+    },
+    {
+        "name": "Támogató",
+        "description": "Megvásároltad a prémium verziót.",
+        "color": "Green",
+        "criterion": "unlock",
+        "value": 0,
+        "image": "dollarsign.square.fill"
+    }
+]
