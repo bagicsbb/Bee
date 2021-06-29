@@ -25,6 +25,12 @@
 		338D007526887A3500DBB6EB /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 338D007426887A3500DBB6EB /* Colors.xcassets */; };
 		338D007726889CEB00DBB6EB /* EditProjectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 338D007626889CEB00DBB6EB /* EditProjectView.swift */; };
 		338D00792688F00700DBB6EB /* Sequence-Sorting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 338D00782688F00700DBB6EB /* Sequence-Sorting.swift */; };
+		338D007B2689E9A700DBB6EB /* SelectSomethingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 338D007A2689E9A700DBB6EB /* SelectSomethingView.swift */; };
+		338D007D268A158600DBB6EB /* Bundle-Decodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 338D007C268A158600DBB6EB /* Bundle-Decodable.swift */; };
+		338D007F268A1DDF00DBB6EB /* Awards.json in Resources */ = {isa = PBXBuildFile; fileRef = 338D007E268A1DDF00DBB6EB /* Awards.json */; };
+		338D0081268A1F0200DBB6EB /* Award.swift in Sources */ = {isa = PBXBuildFile; fileRef = 338D0080268A1F0200DBB6EB /* Award.swift */; };
+		338D0083268A203B00DBB6EB /* AwardsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 338D0082268A203B00DBB6EB /* AwardsView.swift */; };
+		338D0085268A632200DBB6EB /* Color-Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 338D0084268A632200DBB6EB /* Color-Additions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -49,6 +55,12 @@
 		338D007426887A3500DBB6EB /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
 		338D007626889CEB00DBB6EB /* EditProjectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProjectView.swift; sourceTree = "<group>"; };
 		338D00782688F00700DBB6EB /* Sequence-Sorting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Sequence-Sorting.swift"; sourceTree = "<group>"; };
+		338D007A2689E9A700DBB6EB /* SelectSomethingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectSomethingView.swift; sourceTree = "<group>"; };
+		338D007C268A158600DBB6EB /* Bundle-Decodable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bundle-Decodable.swift"; sourceTree = "<group>"; };
+		338D007E268A1DDF00DBB6EB /* Awards.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Awards.json; sourceTree = "<group>"; };
+		338D0080268A1F0200DBB6EB /* Award.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Award.swift; sourceTree = "<group>"; };
+		338D0082268A203B00DBB6EB /* AwardsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AwardsView.swift; sourceTree = "<group>"; };
+		338D0084268A632200DBB6EB /* Color-Additions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color-Additions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,10 +103,16 @@
 				3339D52E2684DD8500699C7D /* Preview Content */,
 				3339D5372684DD9F00699C7D /* Main.xcdatamodeld */,
 				3339D53A2684DF8000699C7D /* DataController.swift */,
+				338D007A2689E9A700DBB6EB /* SelectSomethingView.swift */,
 				3339D5402684E33C00699C7D /* HomeView.swift */,
 				338D006E26886BD800DBB6EB /* ItemRowView.swift */,
+				338D007E268A1DDF00DBB6EB /* Awards.json */,
+				338D0080268A1F0200DBB6EB /* Award.swift */,
+				338D0082268A203B00DBB6EB /* AwardsView.swift */,
+				338D0084268A632200DBB6EB /* Color-Additions.swift */,
 				338D00782688F00700DBB6EB /* Sequence-Sorting.swift */,
 				3339D5422684E43D00699C7D /* ProjectsView.swift */,
+				338D007C268A158600DBB6EB /* Bundle-Decodable.swift */,
 				338D007626889CEB00DBB6EB /* EditProjectView.swift */,
 				338D00722688753300DBB6EB /* ProjectHeaderView.swift */,
 				338D007426887A3500DBB6EB /* Colors.xcassets */,
@@ -180,6 +198,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				338D007526887A3500DBB6EB /* Colors.xcassets in Resources */,
+				338D007F268A1DDF00DBB6EB /* Awards.json in Resources */,
 				3339D5302684DD8500699C7D /* Preview Assets.xcassets in Resources */,
 				3339D52D2684DD8500699C7D /* Assets.xcassets in Resources */,
 			);
@@ -194,14 +213,19 @@
 			files = (
 				3339D5432684E43D00699C7D /* ProjectsView.swift in Sources */,
 				338D00732688753300DBB6EB /* ProjectHeaderView.swift in Sources */,
+				338D0083268A203B00DBB6EB /* AwardsView.swift in Sources */,
 				3339D5392684DD9F00699C7D /* Main.xcdatamodeld in Sources */,
 				3339D54726850FDB00699C7D /* Project-CoreDataHelpers.swift in Sources */,
+				338D0085268A632200DBB6EB /* Color-Additions.swift in Sources */,
 				338D007726889CEB00DBB6EB /* EditProjectView.swift in Sources */,
 				3339D53B2684DF8000699C7D /* DataController.swift in Sources */,
+				338D007B2689E9A700DBB6EB /* SelectSomethingView.swift in Sources */,
+				338D0081268A1F0200DBB6EB /* Award.swift in Sources */,
 				338D006F26886BD800DBB6EB /* ItemRowView.swift in Sources */,
 				3339D52B2684DD8200699C7D /* ContentView.swift in Sources */,
 				338D007126886EC800DBB6EB /* Binding-OnChange.swift in Sources */,
 				338D00792688F00700DBB6EB /* Sequence-Sorting.swift in Sources */,
+				338D007D268A158600DBB6EB /* Bundle-Decodable.swift in Sources */,
 				3339D5412684E33C00699C7D /* HomeView.swift in Sources */,
 				3339D5292684DD8200699C7D /* BeeApp.swift in Sources */,
 				3339D54526850E8600699C7D /* Item-CoreDataHelpers.swift in Sources */,
