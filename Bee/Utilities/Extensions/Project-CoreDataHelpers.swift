@@ -73,7 +73,6 @@ extension Project {
         project.creationDate = Date()
         
         return project
-        
     }
     
     func projectItems(using sortOrder: Item.SortOrder) -> [Item] {

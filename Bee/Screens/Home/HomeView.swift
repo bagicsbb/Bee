@@ -20,6 +20,8 @@ struct HomeView: View {
     }
     
     init() {
+        // Construct a fetch request to show the 10 highest-priority
+        //incomplete items from open projects.
         let request: NSFetchRequest<Item> = Item.fetchRequest()
         
         let completedPredicate = NSPredicate(format: "completed = false")
@@ -71,7 +73,7 @@ struct HomeView: View {
         }
     }
     @ViewBuilder func list(_ title: LocalizedStringKey, for items: FetchedResults<Item>.SubSequence) -> some View {
-       
+        
     }
 }
 

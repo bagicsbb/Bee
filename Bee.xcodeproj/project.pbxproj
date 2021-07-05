@@ -35,7 +35,19 @@
 		338D0081268A1F0200DBB6EB /* Award.swift in Sources */ = {isa = PBXBuildFile; fileRef = 338D0080268A1F0200DBB6EB /* Award.swift */; };
 		338D0083268A203B00DBB6EB /* AwardsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 338D0082268A203B00DBB6EB /* AwardsView.swift */; };
 		338D0085268A632200DBB6EB /* Color-Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 338D0084268A632200DBB6EB /* Color-Additions.swift */; };
+		33931A6F268CD9A7003CF1D1 /* BeeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33931A6E268CD9A7003CF1D1 /* BeeTests.swift */; };
+		33931A77268CDB9B003CF1D1 /* AssetTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33931A76268CDB9B003CF1D1 /* AssetTest.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		33931A71268CD9A7003CF1D1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3339D51D2684DD8200699C7D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3339D5242684DD8200699C7D;
+			remoteInfo = Bee;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		3339D5252684DD8200699C7D /* Bee.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bee.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -72,6 +84,10 @@
 		338D0080268A1F0200DBB6EB /* Award.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Award.swift; sourceTree = "<group>"; };
 		338D0082268A203B00DBB6EB /* AwardsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AwardsView.swift; sourceTree = "<group>"; };
 		338D0084268A632200DBB6EB /* Color-Additions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color-Additions.swift"; sourceTree = "<group>"; };
+		33931A6C268CD9A7003CF1D1 /* BeeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BeeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		33931A6E268CD9A7003CF1D1 /* BeeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeeTests.swift; sourceTree = "<group>"; };
+		33931A70268CD9A7003CF1D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		33931A76268CDB9B003CF1D1 /* AssetTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssetTest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +99,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		33931A69268CD9A7003CF1D1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -90,6 +113,7 @@
 			isa = PBXGroup;
 			children = (
 				3339D5272684DD8200699C7D /* Bee */,
+				33931A6D268CD9A7003CF1D1 /* BeeTests */,
 				3339D5262684DD8200699C7D /* Products */,
 				3339D53D2684E15E00699C7D /* Frameworks */,
 			);
@@ -99,6 +123,7 @@
 			isa = PBXGroup;
 			children = (
 				3339D5252684DD8200699C7D /* Bee.app */,
+				33931A6C268CD9A7003CF1D1 /* BeeTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -106,35 +131,18 @@
 		3339D5272684DD8200699C7D /* Bee */ = {
 			isa = PBXGroup;
 			children = (
+				33931A67268CD0CD003CF1D1 /* TabView */,
+				33931A66268CD0A9003CF1D1 /* Models */,
+				33931A5F268CCF5F003CF1D1 /* Screens */,
+				33931A5D268CCEE7003CF1D1 /* Utilities */,
+				33931A5C268CCECF003CF1D1 /* Localization */,
 				3339D53C2684E11E00699C7D /* Bee.entitlements */,
 				3339D5282684DD8200699C7D /* BeeApp.swift */,
-				3339D52A2684DD8200699C7D /* ContentView.swift */,
 				3339D52C2684DD8500699C7D /* Assets.xcassets */,
 				3339D5312684DD8500699C7D /* Info.plist */,
 				3339D52E2684DD8500699C7D /* Preview Content */,
 				3339D5372684DD9F00699C7D /* Main.xcdatamodeld */,
-				3339D53A2684DF8000699C7D /* DataController.swift */,
-				338D007A2689E9A700DBB6EB /* SelectSomethingView.swift */,
-				3339D5402684E33C00699C7D /* HomeView.swift */,
-				33735E74268B61AB00353918 /* ProjectSummaryView.swift */,
-				338D006E26886BD800DBB6EB /* ItemRowView.swift */,
-				33735E70268B184A00353918 /* Awards.json */,
-				338D0080268A1F0200DBB6EB /* Award.swift */,
-				338D0082268A203B00DBB6EB /* AwardsView.swift */,
-				338D0084268A632200DBB6EB /* Color-Additions.swift */,
-				338D00782688F00700DBB6EB /* Sequence-Sorting.swift */,
-				3339D5422684E43D00699C7D /* ProjectsView.swift */,
-				33735E72268B5FFF00353918 /* ItemListView.swift */,
-				33735E68268B151100353918 /* Localizable.strings */,
-				33735E6C268B168F00353918 /* Localizable.stringsdict */,
-				338D007C268A158600DBB6EB /* Bundle-Decodable.swift */,
-				338D007626889CEB00DBB6EB /* EditProjectView.swift */,
-				338D00722688753300DBB6EB /* ProjectHeaderView.swift */,
 				338D007426887A3500DBB6EB /* Colors.xcassets */,
-				338D006C2688650D00DBB6EB /* EditItemView.swift */,
-				338D007026886EC800DBB6EB /* Binding-OnChange.swift */,
-				3339D54426850E8600699C7D /* Item-CoreDataHelpers.swift */,
-				3339D54626850FDB00699C7D /* Project-CoreDataHelpers.swift */,
 			);
 			path = Bee;
 			sourceTree = "<group>";
@@ -153,6 +161,121 @@
 				3339D53E2684E15E00699C7D /* CloudKit.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		33931A5C268CCECF003CF1D1 /* Localization */ = {
+			isa = PBXGroup;
+			children = (
+				33735E70268B184A00353918 /* Awards.json */,
+				33735E6C268B168F00353918 /* Localizable.stringsdict */,
+				33735E68268B151100353918 /* Localizable.strings */,
+			);
+			path = Localization;
+			sourceTree = "<group>";
+		};
+		33931A5D268CCEE7003CF1D1 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				33931A5E268CCF07003CF1D1 /* Extensions */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		33931A5E268CCF07003CF1D1 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				338D007C268A158600DBB6EB /* Bundle-Decodable.swift */,
+				3339D54626850FDB00699C7D /* Project-CoreDataHelpers.swift */,
+				3339D54426850E8600699C7D /* Item-CoreDataHelpers.swift */,
+				338D0084268A632200DBB6EB /* Color-Additions.swift */,
+				338D00782688F00700DBB6EB /* Sequence-Sorting.swift */,
+				338D007026886EC800DBB6EB /* Binding-OnChange.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		33931A5F268CCF5F003CF1D1 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				33931A60268CCFC6003CF1D1 /* Home */,
+				33931A61268CCFCD003CF1D1 /* Project */,
+				33931A62268CCFD7003CF1D1 /* Awards */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		33931A60268CCFC6003CF1D1 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				33931A63268CD018003CF1D1 /* Views */,
+				3339D5402684E33C00699C7D /* HomeView.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		33931A61268CCFCD003CF1D1 /* Project */ = {
+			isa = PBXGroup;
+			children = (
+				33931A64268CD049003CF1D1 /* Views */,
+				3339D5422684E43D00699C7D /* ProjectsView.swift */,
+			);
+			path = Project;
+			sourceTree = "<group>";
+		};
+		33931A62268CCFD7003CF1D1 /* Awards */ = {
+			isa = PBXGroup;
+			children = (
+				338D0082268A203B00DBB6EB /* AwardsView.swift */,
+			);
+			path = Awards;
+			sourceTree = "<group>";
+		};
+		33931A63268CD018003CF1D1 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				33735E72268B5FFF00353918 /* ItemListView.swift */,
+				33735E74268B61AB00353918 /* ProjectSummaryView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		33931A64268CD049003CF1D1 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				338D006E26886BD800DBB6EB /* ItemRowView.swift */,
+				338D00722688753300DBB6EB /* ProjectHeaderView.swift */,
+				338D007626889CEB00DBB6EB /* EditProjectView.swift */,
+				338D007A2689E9A700DBB6EB /* SelectSomethingView.swift */,
+				338D006C2688650D00DBB6EB /* EditItemView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		33931A66268CD0A9003CF1D1 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				3339D53A2684DF8000699C7D /* DataController.swift */,
+				338D0080268A1F0200DBB6EB /* Award.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		33931A67268CD0CD003CF1D1 /* TabView */ = {
+			isa = PBXGroup;
+			children = (
+				3339D52A2684DD8200699C7D /* ContentView.swift */,
+			);
+			path = TabView;
+			sourceTree = "<group>";
+		};
+		33931A6D268CD9A7003CF1D1 /* BeeTests */ = {
+			isa = PBXGroup;
+			children = (
+				33931A6E268CD9A7003CF1D1 /* BeeTests.swift */,
+				33931A76268CDB9B003CF1D1 /* AssetTest.swift */,
+				33931A70268CD9A7003CF1D1 /* Info.plist */,
+			);
+			path = BeeTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -175,6 +298,24 @@
 			productReference = 3339D5252684DD8200699C7D /* Bee.app */;
 			productType = "com.apple.product-type.application";
 		};
+		33931A6B268CD9A7003CF1D1 /* BeeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 33931A73268CD9A7003CF1D1 /* Build configuration list for PBXNativeTarget "BeeTests" */;
+			buildPhases = (
+				33931A68268CD9A7003CF1D1 /* Sources */,
+				33931A69268CD9A7003CF1D1 /* Frameworks */,
+				33931A6A268CD9A7003CF1D1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				33931A72268CD9A7003CF1D1 /* PBXTargetDependency */,
+			);
+			name = BeeTests;
+			productName = BeeTests;
+			productReference = 33931A6C268CD9A7003CF1D1 /* BeeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -186,6 +327,10 @@
 				TargetAttributes = {
 					3339D5242684DD8200699C7D = {
 						CreatedOnToolsVersion = 12.5;
+					};
+					33931A6B268CD9A7003CF1D1 = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = 3339D5242684DD8200699C7D;
 					};
 				};
 			};
@@ -204,6 +349,7 @@
 			projectRoot = "";
 			targets = (
 				3339D5242684DD8200699C7D /* Bee */,
+				33931A6B268CD9A7003CF1D1 /* BeeTests */,
 			);
 		};
 /* End PBXProject section */
@@ -219,6 +365,13 @@
 				3339D5302684DD8500699C7D /* Preview Assets.xcassets in Resources */,
 				3339D52D2684DD8500699C7D /* Assets.xcassets in Resources */,
 				33735E6A268B168F00353918 /* Localizable.stringsdict in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33931A6A268CD9A7003CF1D1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,7 +406,24 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		33931A68268CD9A7003CF1D1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33931A77268CDB9B003CF1D1 /* AssetTest.swift in Sources */,
+				33931A6F268CD9A7003CF1D1 /* BeeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		33931A72268CD9A7003CF1D1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3339D5242684DD8200699C7D /* Bee */;
+			targetProxy = 33931A71268CD9A7003CF1D1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		33735E68268B151100353918 /* Localizable.strings */ = {
@@ -448,6 +618,46 @@
 			};
 			name = Release;
 		};
+		33931A74268CD9A7003CF1D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 96PFZ5N56K;
+				INFOPLIST_FILE = BeeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = AppBakery.io.BeeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Bee.app/Bee";
+			};
+			name = Debug;
+		};
+		33931A75268CD9A7003CF1D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 96PFZ5N56K;
+				INFOPLIST_FILE = BeeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = AppBakery.io.BeeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Bee.app/Bee";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -465,6 +675,15 @@
 			buildConfigurations = (
 				3339D5352684DD8500699C7D /* Debug */,
 				3339D5362684DD8500699C7D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		33931A73268CD9A7003CF1D1 /* Build configuration list for PBXNativeTarget "BeeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33931A74268CD9A7003CF1D1 /* Debug */,
+				33931A75268CD9A7003CF1D1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

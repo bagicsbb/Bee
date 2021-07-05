@@ -36,5 +36,5 @@ extension Bundle {
             fatalError("Failed to decode \(file) from bundle: \(error.localizedDescription)")
         }
     }
-
+    
 }

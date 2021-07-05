@@ -17,10 +17,7 @@ struct ProjectsView: View {
     @State private var showingSortOrder = false
     @State private var sortOrder = Item.SortOrder.optimized
     
-    
-    
     let showClosedProjects: Bool
-    
     let projects: FetchRequest<Project>
     
     init(showClosedProjects: Bool) {
@@ -41,7 +38,7 @@ struct ProjectsView: View {
                     }
                     if showClosedProjects == false {
                         Button {
-                           addItem(to: project)
+                            addItem(to: project)
                         } label: {
                             Label("Add New Item", systemImage: "plus")
                         }
@@ -56,6 +53,12 @@ struct ProjectsView: View {
         ToolbarItem(placement: .navigationBarTrailing) {
             if showClosedProjects == false {
                 Button {
+                    // in iOS 14.3 VoiceOver has a glitch that reads the label
+                    // "Add Project" as "Add" no matter what accessibility label
+                    // we give this toolbar button when using a Label.
+                    // As a result, when VoiceOver is running, we use a text view
+                    // for the button instead, forcing a correct reading without
+                    // losing the original layout
                     addProject()
                 } label: {
                     if UIAccessibility.isVoiceOverRunning {
@@ -85,7 +88,7 @@ struct ProjectsView: View {
                     Text("There's nothing here right now.")
                         .foregroundColor(.secondary)
                 } else {
-                  projectList
+                    projectList
                 }
             }
             .navigationTitle(showClosedProjects ? "Closed Projects" : "Open Projects" )
@@ -103,18 +106,15 @@ struct ProjectsView: View {
             SelectSomethingView()
         }
     }
-    
     struct ProjectsView_Previews: PreviewProvider {
         
         static var dataController = DataController.preview
-        
         static var previews: some View {
             ProjectsView(showClosedProjects: false)
                 .environment(\.managedObjectContext, dataController.container.viewContext)
                 .environmentObject(dataController)
         }
     }
-    
     func addProject() {
         withAnimation {
             let project = Project(context: managedObjectContext)
@@ -123,7 +123,6 @@ struct ProjectsView: View {
             dataController.save()
         }
     }
-    
     func addItem(to project: Project) {
         withAnimation {
             let item = Item(context: managedObjectContext)
@@ -132,7 +131,6 @@ struct ProjectsView: View {
             dataController.save()
         }
     }
-    
     func delete (_ offsets: IndexSet, from project: Project) {
         let allItems = project.projectItems(using: sortOrder)
         

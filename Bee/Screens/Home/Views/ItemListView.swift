@@ -24,10 +24,13 @@ struct ItemListView: View {
             ForEach(items) { item in
                 NavigationLink(destination: EditItemView(item: item)) {
                     HStack(spacing: 20) {
-                        Circle()
-                            .stroke(Color(item.project?.projectColor ?? "Light Blue"), lineWidth: 3)
-                            .frame(width: 44, height: 44)
-                        
+                        Image(systemName: "circlebadge.fill")
+                            .resizable()
+                            .frame(width: 20, height: 20)
+                            .accentColor(Color(item.project?.projectColor ?? "Light Blue"))
+//                            .stroke(Color(item.project?.projectColor ?? "Light Blue"), lineWidth: 3)
+                            
+
                         VStack(alignment: .leading) {
                             Text(item.itemTitle)
                                 .font(.title2)
