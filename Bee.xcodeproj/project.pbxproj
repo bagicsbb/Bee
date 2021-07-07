@@ -18,6 +18,8 @@
 		3339D5432684E43D00699C7D /* ProjectsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3339D5422684E43D00699C7D /* ProjectsView.swift */; };
 		3339D54526850E8600699C7D /* Item-CoreDataHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3339D54426850E8600699C7D /* Item-CoreDataHelpers.swift */; };
 		3339D54726850FDB00699C7D /* Project-CoreDataHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3339D54626850FDB00699C7D /* Project-CoreDataHelpers.swift */; };
+		337081B926937875000F871D /* ProjectTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 337081B826937875000F871D /* ProjectTest.swift */; };
+		337081BB26958A3F000F871D /* AwardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 337081BA26958A3F000F871D /* AwardTests.swift */; };
 		33735E66268B151100353918 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 33735E68268B151100353918 /* Localizable.strings */; };
 		33735E6A268B168F00353918 /* Localizable.stringsdict in Resources */ = {isa = PBXBuildFile; fileRef = 33735E6C268B168F00353918 /* Localizable.stringsdict */; };
 		33735E6E268B184A00353918 /* Awards.json in Resources */ = {isa = PBXBuildFile; fileRef = 33735E70268B184A00353918 /* Awards.json */; };
@@ -64,6 +66,8 @@
 		3339D5422684E43D00699C7D /* ProjectsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectsView.swift; sourceTree = "<group>"; };
 		3339D54426850E8600699C7D /* Item-CoreDataHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Item-CoreDataHelpers.swift"; sourceTree = "<group>"; };
 		3339D54626850FDB00699C7D /* Project-CoreDataHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Project-CoreDataHelpers.swift"; sourceTree = "<group>"; };
+		337081B826937875000F871D /* ProjectTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectTest.swift; sourceTree = "<group>"; };
+		337081BA26958A3F000F871D /* AwardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AwardTests.swift; sourceTree = "<group>"; };
 		33735E67268B151100353918 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		33735E69268B152100353918 /* hu */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = hu; path = hu.lproj/Localizable.strings; sourceTree = "<group>"; };
 		33735E6B268B168F00353918 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.stringsdict; name = en; path = en.lproj/Localizable.stringsdict; sourceTree = "<group>"; };
@@ -272,6 +276,8 @@
 			isa = PBXGroup;
 			children = (
 				33931A6E268CD9A7003CF1D1 /* BeeTests.swift */,
+				337081B826937875000F871D /* ProjectTest.swift */,
+				337081BA26958A3F000F871D /* AwardTests.swift */,
 				33931A76268CDB9B003CF1D1 /* AssetTest.swift */,
 				33931A70268CD9A7003CF1D1 /* Info.plist */,
 			);
@@ -411,6 +417,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				33931A77268CDB9B003CF1D1 /* AssetTest.swift in Sources */,
+				337081BB26958A3F000F871D /* AwardTests.swift in Sources */,
+				337081B926937875000F871D /* ProjectTest.swift in Sources */,
 				33931A6F268CD9A7003CF1D1 /* BeeTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
