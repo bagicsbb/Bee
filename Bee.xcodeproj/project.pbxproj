@@ -20,6 +20,10 @@
 		3339D54726850FDB00699C7D /* Project-CoreDataHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3339D54626850FDB00699C7D /* Project-CoreDataHelpers.swift */; };
 		337081B926937875000F871D /* ProjectTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 337081B826937875000F871D /* ProjectTest.swift */; };
 		337081BB26958A3F000F871D /* AwardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 337081BA26958A3F000F871D /* AwardTests.swift */; };
+		337081BF26959765000F871D /* DevelopmentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 337081BE26959765000F871D /* DevelopmentTests.swift */; };
+		337081C12695A6BB000F871D /* ExtensionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 337081C02695A6BB000F871D /* ExtensionTests.swift */; };
+		337081C42695AA9A000F871D /* DecodableDictionary.json in Resources */ = {isa = PBXBuildFile; fileRef = 337081C32695AA9A000F871D /* DecodableDictionary.json */; };
+		337081C62695AAF2000F871D /* DecodableString.json in Resources */ = {isa = PBXBuildFile; fileRef = 337081C52695AAF2000F871D /* DecodableString.json */; };
 		33735E66268B151100353918 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 33735E68268B151100353918 /* Localizable.strings */; };
 		33735E6A268B168F00353918 /* Localizable.stringsdict in Resources */ = {isa = PBXBuildFile; fileRef = 33735E6C268B168F00353918 /* Localizable.stringsdict */; };
 		33735E6E268B184A00353918 /* Awards.json in Resources */ = {isa = PBXBuildFile; fileRef = 33735E70268B184A00353918 /* Awards.json */; };
@@ -39,10 +43,22 @@
 		338D0085268A632200DBB6EB /* Color-Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 338D0084268A632200DBB6EB /* Color-Additions.swift */; };
 		33931A6F268CD9A7003CF1D1 /* BeeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33931A6E268CD9A7003CF1D1 /* BeeTests.swift */; };
 		33931A77268CDB9B003CF1D1 /* AssetTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33931A76268CDB9B003CF1D1 /* AssetTest.swift */; };
+		33998D6726C16A0100FB3938 /* PerformanceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33998D6626C16A0100FB3938 /* PerformanceTests.swift */; };
+		33998D6F26C171E600FB3938 /* BeeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33998D6E26C171E600FB3938 /* BeeUITests.swift */; };
+		33998D7726C1911D00FB3938 /* ProjectViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33998D7626C1911C00FB3938 /* ProjectViewModel.swift */; };
+		33998D7926C2758200FB3938 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33998D7826C2758200FB3938 /* HomeViewModel.swift */; };
+		33998D7B26C2814F00FB3938 /* ItemRowViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33998D7A26C2814F00FB3938 /* ItemRowViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
 		33931A71268CD9A7003CF1D1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3339D51D2684DD8200699C7D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3339D5242684DD8200699C7D;
+			remoteInfo = Bee;
+		};
+		33998D7126C171E600FB3938 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 3339D51D2684DD8200699C7D /* Project object */;
 			proxyType = 1;
@@ -68,6 +84,10 @@
 		3339D54626850FDB00699C7D /* Project-CoreDataHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Project-CoreDataHelpers.swift"; sourceTree = "<group>"; };
 		337081B826937875000F871D /* ProjectTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectTest.swift; sourceTree = "<group>"; };
 		337081BA26958A3F000F871D /* AwardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AwardTests.swift; sourceTree = "<group>"; };
+		337081BE26959765000F871D /* DevelopmentTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DevelopmentTests.swift; sourceTree = "<group>"; };
+		337081C02695A6BB000F871D /* ExtensionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionTests.swift; sourceTree = "<group>"; };
+		337081C32695AA9A000F871D /* DecodableDictionary.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = DecodableDictionary.json; sourceTree = "<group>"; };
+		337081C52695AAF2000F871D /* DecodableString.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = DecodableString.json; sourceTree = "<group>"; };
 		33735E67268B151100353918 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		33735E69268B152100353918 /* hu */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = hu; path = hu.lproj/Localizable.strings; sourceTree = "<group>"; };
 		33735E6B268B168F00353918 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.stringsdict; name = en; path = en.lproj/Localizable.stringsdict; sourceTree = "<group>"; };
@@ -92,6 +112,13 @@
 		33931A6E268CD9A7003CF1D1 /* BeeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeeTests.swift; sourceTree = "<group>"; };
 		33931A70268CD9A7003CF1D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		33931A76268CDB9B003CF1D1 /* AssetTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssetTest.swift; sourceTree = "<group>"; };
+		33998D6626C16A0100FB3938 /* PerformanceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PerformanceTests.swift; sourceTree = "<group>"; };
+		33998D6C26C171E600FB3938 /* BeeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BeeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		33998D6E26C171E600FB3938 /* BeeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeeUITests.swift; sourceTree = "<group>"; };
+		33998D7026C171E600FB3938 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		33998D7626C1911C00FB3938 /* ProjectViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectViewModel.swift; sourceTree = "<group>"; };
+		33998D7826C2758200FB3938 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		33998D7A26C2814F00FB3938 /* ItemRowViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemRowViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +137,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		33998D6926C171E600FB3938 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -118,6 +152,7 @@
 			children = (
 				3339D5272684DD8200699C7D /* Bee */,
 				33931A6D268CD9A7003CF1D1 /* BeeTests */,
+				33998D6D26C171E600FB3938 /* BeeUITests */,
 				3339D5262684DD8200699C7D /* Products */,
 				3339D53D2684E15E00699C7D /* Frameworks */,
 			);
@@ -128,6 +163,7 @@
 			children = (
 				3339D5252684DD8200699C7D /* Bee.app */,
 				33931A6C268CD9A7003CF1D1 /* BeeTests.xctest */,
+				33998D6C26C171E600FB3938 /* BeeUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -165,6 +201,15 @@
 				3339D53E2684E15E00699C7D /* CloudKit.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		337081C22695AA64000F871D /* Fixtures */ = {
+			isa = PBXGroup;
+			children = (
+				337081C32695AA9A000F871D /* DecodableDictionary.json */,
+				337081C52695AAF2000F871D /* DecodableString.json */,
+			);
+			path = Fixtures;
 			sourceTree = "<group>";
 		};
 		33931A5C268CCECF003CF1D1 /* Localization */ = {
@@ -213,6 +258,7 @@
 			children = (
 				33931A63268CD018003CF1D1 /* Views */,
 				3339D5402684E33C00699C7D /* HomeView.swift */,
+				33998D7826C2758200FB3938 /* HomeViewModel.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -222,6 +268,7 @@
 			children = (
 				33931A64268CD049003CF1D1 /* Views */,
 				3339D5422684E43D00699C7D /* ProjectsView.swift */,
+				33998D7626C1911C00FB3938 /* ProjectViewModel.swift */,
 			);
 			path = Project;
 			sourceTree = "<group>";
@@ -247,6 +294,7 @@
 			isa = PBXGroup;
 			children = (
 				338D006E26886BD800DBB6EB /* ItemRowView.swift */,
+				33998D7A26C2814F00FB3938 /* ItemRowViewModel.swift */,
 				338D00722688753300DBB6EB /* ProjectHeaderView.swift */,
 				338D007626889CEB00DBB6EB /* EditProjectView.swift */,
 				338D007A2689E9A700DBB6EB /* SelectSomethingView.swift */,
@@ -275,13 +323,26 @@
 		33931A6D268CD9A7003CF1D1 /* BeeTests */ = {
 			isa = PBXGroup;
 			children = (
+				337081C22695AA64000F871D /* Fixtures */,
 				33931A6E268CD9A7003CF1D1 /* BeeTests.swift */,
 				337081B826937875000F871D /* ProjectTest.swift */,
 				337081BA26958A3F000F871D /* AwardTests.swift */,
+				33998D6626C16A0100FB3938 /* PerformanceTests.swift */,
 				33931A76268CDB9B003CF1D1 /* AssetTest.swift */,
 				33931A70268CD9A7003CF1D1 /* Info.plist */,
+				337081BE26959765000F871D /* DevelopmentTests.swift */,
+				337081C02695A6BB000F871D /* ExtensionTests.swift */,
 			);
 			path = BeeTests;
+			sourceTree = "<group>";
+		};
+		33998D6D26C171E600FB3938 /* BeeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				33998D6E26C171E600FB3938 /* BeeUITests.swift */,
+				33998D7026C171E600FB3938 /* Info.plist */,
+			);
+			path = BeeUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -322,6 +383,24 @@
 			productReference = 33931A6C268CD9A7003CF1D1 /* BeeTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		33998D6B26C171E600FB3938 /* BeeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 33998D7326C171E600FB3938 /* Build configuration list for PBXNativeTarget "BeeUITests" */;
+			buildPhases = (
+				33998D6826C171E600FB3938 /* Sources */,
+				33998D6926C171E600FB3938 /* Frameworks */,
+				33998D6A26C171E600FB3938 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				33998D7226C171E600FB3938 /* PBXTargetDependency */,
+			);
+			name = BeeUITests;
+			productName = BeeUITests;
+			productReference = 33998D6C26C171E600FB3938 /* BeeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -335,6 +414,10 @@
 						CreatedOnToolsVersion = 12.5;
 					};
 					33931A6B268CD9A7003CF1D1 = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = 3339D5242684DD8200699C7D;
+					};
+					33998D6B26C171E600FB3938 = {
 						CreatedOnToolsVersion = 12.5;
 						TestTargetID = 3339D5242684DD8200699C7D;
 					};
@@ -356,6 +439,7 @@
 			targets = (
 				3339D5242684DD8200699C7D /* Bee */,
 				33931A6B268CD9A7003CF1D1 /* BeeTests */,
+				33998D6B26C171E600FB3938 /* BeeUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -378,6 +462,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				337081C62695AAF2000F871D /* DecodableString.json in Resources */,
+				337081C42695AA9A000F871D /* DecodableDictionary.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33998D6A26C171E600FB3938 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -393,11 +486,13 @@
 				338D00732688753300DBB6EB /* ProjectHeaderView.swift in Sources */,
 				338D0083268A203B00DBB6EB /* AwardsView.swift in Sources */,
 				3339D5392684DD9F00699C7D /* Main.xcdatamodeld in Sources */,
+				33998D7926C2758200FB3938 /* HomeViewModel.swift in Sources */,
 				3339D54726850FDB00699C7D /* Project-CoreDataHelpers.swift in Sources */,
 				338D0085268A632200DBB6EB /* Color-Additions.swift in Sources */,
 				338D007726889CEB00DBB6EB /* EditProjectView.swift in Sources */,
 				3339D53B2684DF8000699C7D /* DataController.swift in Sources */,
 				338D007B2689E9A700DBB6EB /* SelectSomethingView.swift in Sources */,
+				33998D7726C1911D00FB3938 /* ProjectViewModel.swift in Sources */,
 				338D0081268A1F0200DBB6EB /* Award.swift in Sources */,
 				338D006F26886BD800DBB6EB /* ItemRowView.swift in Sources */,
 				3339D52B2684DD8200699C7D /* ContentView.swift in Sources */,
@@ -406,6 +501,7 @@
 				338D007D268A158600DBB6EB /* Bundle-Decodable.swift in Sources */,
 				33735E73268B5FFF00353918 /* ItemListView.swift in Sources */,
 				3339D5412684E33C00699C7D /* HomeView.swift in Sources */,
+				33998D7B26C2814F00FB3938 /* ItemRowViewModel.swift in Sources */,
 				3339D5292684DD8200699C7D /* BeeApp.swift in Sources */,
 				3339D54526850E8600699C7D /* Item-CoreDataHelpers.swift in Sources */,
 				338D006D2688650D00DBB6EB /* EditItemView.swift in Sources */,
@@ -416,10 +512,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				33998D6726C16A0100FB3938 /* PerformanceTests.swift in Sources */,
 				33931A77268CDB9B003CF1D1 /* AssetTest.swift in Sources */,
 				337081BB26958A3F000F871D /* AwardTests.swift in Sources */,
 				337081B926937875000F871D /* ProjectTest.swift in Sources */,
+				337081C12695A6BB000F871D /* ExtensionTests.swift in Sources */,
 				33931A6F268CD9A7003CF1D1 /* BeeTests.swift in Sources */,
+				337081BF26959765000F871D /* DevelopmentTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33998D6826C171E600FB3938 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33998D6F26C171E600FB3938 /* BeeUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -430,6 +537,11 @@
 			isa = PBXTargetDependency;
 			target = 3339D5242684DD8200699C7D /* Bee */;
 			targetProxy = 33931A71268CD9A7003CF1D1 /* PBXContainerItemProxy */;
+		};
+		33998D7226C171E600FB3938 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3339D5242684DD8200699C7D /* Bee */;
+			targetProxy = 33998D7126C171E600FB3938 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -666,6 +778,44 @@
 			};
 			name = Release;
 		};
+		33998D7426C171E600FB3938 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 96PFZ5N56K;
+				INFOPLIST_FILE = BeeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = AppBakery.io.BeeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Bee;
+			};
+			name = Debug;
+		};
+		33998D7526C171E600FB3938 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 96PFZ5N56K;
+				INFOPLIST_FILE = BeeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = AppBakery.io.BeeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Bee;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -692,6 +842,15 @@
 			buildConfigurations = (
 				33931A74268CD9A7003CF1D1 /* Debug */,
 				33931A75268CD9A7003CF1D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		33998D7326C171E600FB3938 /* Build configuration list for PBXNativeTarget "BeeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33998D7426C171E600FB3938 /* Debug */,
+				33998D7526C171E600FB3938 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
